@@ -1,0 +1,818 @@
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Driver Signing
+    Policy    REG_BINARY    00
+
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon
+    Userinit    REG_SZ    C:\Windows\system32\userinit.exe,
+    LegalNoticeText    REG_SZ    
+    Shell    REG_SZ    explorer.exe
+    LegalNoticeCaption    REG_SZ    
+    DebugServerCommand    REG_SZ    no
+    ForceUnlockLogon    REG_DWORD    0x0
+    ReportBootOk    REG_SZ    1
+    VMApplet    REG_SZ    SystemPropertiesPerformance.exe /pagefile
+    AutoRestartShell    REG_DWORD    0x1
+    PowerdownAfterShutdown    REG_SZ    0
+    ShutdownWithoutLogon    REG_SZ    0
+    Background    REG_SZ    0 0 0
+    PasswordExpiryWarning    REG_DWORD    0x5
+    CachedLogonsCount    REG_SZ    10
+    WinStationsDisabled    REG_SZ    0
+    PreCreateKnownFolders    REG_SZ    {A520A1A4-1780-4FF6-BD18-167343C5AF16}
+    scremoveoption    REG_SZ    0
+    DisableCAD    REG_DWORD    0x1
+    ShutdownFlags    REG_DWORD    0x87
+    EnableFirstLogonAnimation    REG_DWORD    0x1
+    AutoLogonSID    REG_SZ    S-1-5-32
+    LastUsedUsername    REG_SZ    
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\AlternateShells
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\GPExtensions
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Winlogon\AutoLogonChecked
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\Setup\RecoveryConsole
+    securitylevel    REG_DWORD    0x0
+    setcommand    REG_DWORD    0x0
+
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System
+    EnableVirtualization    REG_DWORD    0x1
+    EnableInstallerDetection    REG_DWORD    0x1
+    PromptOnSecureDesktop    REG_DWORD    0x0
+    EnableLUA    REG_DWORD    0x1
+    EnableSecureUIAPaths    REG_DWORD    0x1
+    ConsentPromptBehaviorAdmin    REG_DWORD    0x0
+    ValidateAdminCodeSignatures    REG_DWORD    0x0
+    EnableUIADesktopToggle    REG_DWORD    0x0
+    EnableCursorSuppression    REG_DWORD    0x1
+    ConsentPromptBehaviorUser    REG_DWORD    0x3
+    dontdisplaylastusername    REG_DWORD    0x0
+    legalnoticecaption    REG_SZ    
+    legalnoticetext    REG_SZ    
+    scforceoption    REG_DWORD    0x0
+    shutdownwithoutlogon    REG_DWORD    0x1
+    undockwithoutlogon    REG_DWORD    0x1
+    FilterAdministratorToken    REG_DWORD    0x0
+    DisableCAD    REG_DWORD    0x1
+    SoftwareSASGeneration    REG_DWORD    0x1
+    EnableLinkedConnections    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\Audit
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\System\UIPI
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer
+    ForceActiveDesktopOn    REG_DWORD    0x0
+    NoActiveDesktopChanges    REG_DWORD    0x1
+    NoActiveDesktop    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run
+
+HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Windows\Safer\CodeIdentifiers
+    authenticodeenabled    REG_DWORD    0x0
+
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\CrashControl
+    DumpFilters    REG_MULTI_SZ    dumpfve.sys
+    LogEvent    REG_DWORD    0x1
+    Overwrite    REG_DWORD    0x1
+    AutoReboot    REG_DWORD    0x1
+    DumpFile    REG_EXPAND_SZ    %SystemRoot%\MEMORY.DMP
+    CrashDumpEnabled    REG_DWORD    0x7
+    MinidumpsCount    REG_DWORD    0x32
+    MinidumpDir    REG_EXPAND_SZ    %SystemRoot%\Minidump
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\CrashControl\StorageTelemetry
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa
+    Bounds    REG_BINARY    0030000000200000
+    auditbasedirectories    REG_DWORD    0x0
+    fullprivilegeauditing    REG_BINARY    00
+    crashonauditfail    REG_DWORD    0x0
+    auditbaseobjects    REG_DWORD    0x0
+    Security Packages    REG_MULTI_SZ    ""
+    LimitBlankPasswordUse    REG_DWORD    0x1
+    NoLmHash    REG_DWORD    0x1
+    Notification Packages    REG_MULTI_SZ    scecli
+    Authentication Packages    REG_MULTI_SZ    msv1_0
+    LsaPid    REG_DWORD    0x2f8
+    SecureBoot    REG_DWORD    0x1
+    ProductType    REG_DWORD    0x3
+    disabledomaincreds    REG_DWORD    0x0
+    everyoneincludesanonymous    REG_DWORD    0x0
+    forceguest    REG_DWORD    0x0
+    restrictanonymous    REG_DWORD    0x0
+    restrictanonymoussam    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\AccessProviders
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\Audit
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\CentralizedAccessPolicies
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\Credssp
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\Data
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\FipsAlgorithmPolicy
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\GBG
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\JD
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\Kerberos
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\MSV1_0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\OSConfig
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\Skew1
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\SSO
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\SspiCache
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Lsa\MSV1_0
+    NtlmMinClientSec    REG_DWORD    0x20000000
+    Auth132    REG_SZ    IISSUBA
+    NtlmMinServerSec    REG_DWORD    0x20000000
+
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Print\Providers\LanMan Print Services\Servers
+    AddPrinterDrivers    REG_DWORD    0x0
+
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurePipeServers\Winreg\AllowedExactPaths
+    Machine    REG_MULTI_SZ    System\CurrentControlSet\Control\ProductOptions\0System\CurrentControlSet\Control\Server Applications\0Software\Microsoft\Windows NT\CurrentVersion
+
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\SecurePipeServers\Winreg\AllowedPaths
+    Machine    REG_MULTI_SZ    System\CurrentControlSet\Control\Print\Printers\0System\CurrentControlSet\Services\Eventlog\0Software\Microsoft\OLAP Server\0Software\Microsoft\Windows NT\CurrentVersion\Print\0Software\Microsoft\Windows NT\CurrentVersion\Windows\0System\CurrentControlSet\Control\ContentIndex\0System\CurrentControlSet\Control\Terminal Server\0System\CurrentControlSet\Control\Terminal Server\UserConfig\0System\CurrentControlSet\Control\Terminal Server\DefaultUserConfiguration\0Software\Microsoft\Windows NT\CurrentVersion\Perflib\0System\CurrentControlSet\Services\SysmonLog
+
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager
+    GlobalFlag    REG_DWORD    0x0
+    HeapDeCommitTotalFreeThreshold    REG_DWORD    0x0
+    HeapSegmentCommit    REG_DWORD    0x0
+    HeapDeCommitFreeBlockThreshold    REG_DWORD    0x0
+    ResourceTimeoutCount    REG_DWORD    0x9e340
+    ObjectDirectories    REG_MULTI_SZ    \Windows\0\RPC Control
+    ProtectionMode    REG_DWORD    0x1
+    CriticalSectionTimeout    REG_DWORD    0x278d00
+    ProcessorControl    REG_DWORD    0x2
+    HeapSegmentReserve    REG_DWORD    0x0
+    ExcludeFromKnownDlls    REG_MULTI_SZ    
+    BootExecute    REG_MULTI_SZ    autocheck autochk *
+    BootShell    REG_EXPAND_SZ    %SystemRoot%\system32\bootim.exe
+    NumberOfInitialSessions    REG_DWORD    0x2
+    RunLevelExecute    REG_MULTI_SZ    WinInit\0ServiceControlManager
+    AutoChkTimeout    REG_DWORD    0x1
+    RunLevelValidate    REG_MULTI_SZ    ServiceControlManager
+    SETUPEXECUTE    REG_MULTI_SZ    
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\AppCompatCache
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Configuration Manager
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\DOS Devices
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Executive
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\FileRenameOperations
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\I/O System
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Kernel
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\KnownDLLs
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Memory Management
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Power
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Quota System
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\SubSystems
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\WPA
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Kernel
+    ObUnsecureGlobalNames    REG_MULTI_SZ    netfxcustomperfcounters.1.0\0SharedPerfIPCBlock\0Cor_Private_IPCBlock\0Cor_Public_IPCBlock_\0TpVcW32Queue
+    obcaseinsensitive    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Kernel\RNG
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Memory Management
+    ClearPageFileAtShutdown    REG_DWORD    0x0
+    NonPagedPoolQuota    REG_DWORD    0x0
+    NonPagedPoolSize    REG_DWORD    0x0
+    SessionViewSize    REG_DWORD    0x30
+    SystemPages    REG_DWORD    0x0
+    SecondLevelDataCache    REG_DWORD    0x0
+    SessionPoolSize    REG_DWORD    0x4
+    DisablePagingExecutive    REG_DWORD    0x0
+    LargeSystemCache    REG_DWORD    0x0
+    PagedPoolSize    REG_DWORD    0x0
+    PagingFiles    REG_MULTI_SZ    ?:\pagefile.sys
+    PagedPoolQuota    REG_DWORD    0x0
+    PhysicalAddressExtension    REG_DWORD    0x1
+    PagefileUsage    REG_BINARY    39020000A2540200B02A02007F3B0200D2E50600E77E030022AC0100CDCC010063F8010030450200CCB00200FF0B0300E3FF02001408030033D802003D4803008BC401008425020078B703009A510300CAFD0200DE28030053FD0200D6C70200050803001823030088A90200457A0100A5CC01009EF50100781002002A05020090240200282D0200CE2802006C3002005F48020029F80100712202009A19020025B60200B5DB000034770200CE4E0200C053020022300200BF320200AC1F0200E9E601006BDA0100B0CA0100541601007FE80000ADF7000048080100DB1501003F3F01003B090100C3310100772D01003C170100C3010100FE8401008C6302004141040007910000DCB00000FD9D000044C6000043A70000C5AC00000CBA02008EE402007C910200AF9E020022A601009B8F0100F8110200B8C201007BDF0100DFC2010089A60000D6A8000043AE00004EAE00005C3A01003BCD00005EC20000F4A8000074D600008B9D020035B302009CA20200B5C5020029CD020045C30200B8800200B69E0100847F0100951602004D430200EB2002007E230200F11C0200931202008A9F01006A1402003CED010076C60100B70204005227040073B30200265802003E620200B8650200A87F020056BF010010AA010055DB0100B4C7010099BE0100D95B0200CF5402004462020057540200F175020063240200C7230200B23B0200329E0200CE4C0200793201009E22010020870100D93301004887010020AC020062430300D5CB0200747E04004AC204002B14020009EC010039D901005C280200AFE401006A7C0200F4B80000D1C2000071CC0000AA2401004B6B0000DC290E00C0C4050008470C00B86101007D6B0100FA6A0100FA7E01001CC70200ABD0020082A7020075D7020056D802009D930200D5B5010029A1010084950100DBA2010007C001009CF8010033C7010041000200BCD10100AADA01009D6B010013A4010011020200E80A02004C210200C9340200D21F02001B3302001BC00200441C0300FB0B030006B80100B9B00100DCC00100AAE90100F0FB010059FC0100FEED010076EC010011CA010069ED0100CCCA010086D6010025D1030019390300141D0400161B0400B35604006DF203007B4E0600EBC003009434020029340300B899030093050300A8200300713F0300B92203009EF10200D97F0300AB6D0300CA5D0200D1590200A2210300648F0300292504003DE80300500E0500F2E103005D9A0400738B00009CC2000084BC0000DDDF000056EC0000A5FF0000EA1C0100F0E90000F3E7000013F3020043E402003C470100DFC90100CFE70100235502000F3C0200
+    ExistingPageFiles    REG_MULTI_SZ    \??\C:\pagefile.sys
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Memory Management\StoreParameters
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\SubSystems
+    (Default)    REG_SZ    mnmsrvc
+    Required    REG_MULTI_SZ    Debug\0Windows
+    Debug    REG_EXPAND_SZ    
+    Kmode    REG_EXPAND_SZ    \SystemRoot\System32\win32k.sys
+    Optional    REG_MULTI_SZ    
+    Windows    REG_EXPAND_SZ    %SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application
+    PrimaryModule    REG_SZ    Application
+    DisplayNameFile    REG_EXPAND_SZ    %SystemRoot%\system32\wevtapi.dll
+    DisplayNameID    REG_DWORD    0x100
+    File    REG_EXPAND_SZ    %SystemRoot%\system32\winevt\Logs\Application.evtx
+    MaxSize    REG_DWORD    0x1400000
+    Retention    REG_DWORD    0x0
+    RestrictGuestAccess    REG_DWORD    0x1
+    AutoBackupLogFiles    REG_DWORD    0x0
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\.NET Runtime
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\.NET Runtime Optimization Service
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Application
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Application Error
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Application Hang
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Application-Addon-Event-Provider
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\ASP.NET 2.0.50727.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\AutoEnrollment
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Business Connectivity Services(Legacy Provider)
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\CardSpace 4.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\CertCa
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\CertCli
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\CertEnroll
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Chkdsk
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\COM
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\COM+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Customer Experience Improvement Program
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Desktop Window Manager
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\DiskQuota
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\DptfEvent
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\e-Safe Compliance Client
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Error Instrument
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\ESENT
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\EventSystem
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Folder Redirection
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\GroupPolicy
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Handwriting Recognition
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Help CacheLib2
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Help Index2
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Help Zip2
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\HlpCtntMgr
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\HlpViewer
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Intel(R) Capability Licensing Service Interface
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\IntelDalJhi
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Interactive Services detection
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\ipmiprv
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\LMS
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\LoadPerf
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\LocationNotifications
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Lync
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\LyncPlatform
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\MBSA
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft Fax
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft Office 15
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Office-Business Connectivity Services
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-ApplicationExperienceInfrastructure
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-AppModel-Runtime
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-AppModel-State
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-ASN1
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Audio
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-AxInstallService
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Backup
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-CAPI2
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-CertificateServicesClient
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-CertificateServicesClient-AutoEnrollment
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-CertificateServicesClient-CertEnroll
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-CertificateServicesClient-CredentialRoaming
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-CertificationAuthorityClient-CertCli
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-COMRuntime
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Crypto-BCrypt
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Crypto-CNG
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Crypto-DPAPI
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Crypto-DSSEnh
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Crypto-NCrypt
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Crypto-RNG
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Crypto-RSAEnh
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Defrag
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-DirectShow-Core
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-DirectShow-KernelSupport
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-EapHost
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-EFS
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-EventCollector
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Folder Redirection
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-GenericRoaming
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Immersive-Shell
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-KdsSvc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-LiveId
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-LoadPerf
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-LocationProvider
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-PerfCtrs
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-PerfNet
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-PerfOS
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-PerfProc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-propsys
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-RemoteApp and Desktop Connections
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-RemoteAssistance
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-RestartManager
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-RPC-Events
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Security-EnterpriseData-FileRevocationManager
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Security-Netlogon
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-SmartCard-DeviceEnum
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-SoftwareRestrictionPolicies
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Spell-Checking
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-SpellChecker
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Spellchecking-Host
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-System-Restore
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-TerminalServices-ClientActiveXCore
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-User Profiles General
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-User Profiles Service
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-User-Loader
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Video-For-Windows
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-WBioSrvc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-WindowsSystemAssessmentTool
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-Winsrv
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-WMI
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft-Windows-XWizards
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft.Transactions.Bridge 3.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Microsoft.Transactions.Bridge 4.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\MSDTC
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\MSDTC 2
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\MSDTC Client
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\MSDTC Client 2
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\MsiInstaller
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\MSSOAP
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Office
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Outlook
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\PDH
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\PerfCtrs
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\PerfDisk
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Perflib
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\PerfNet
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\PerfOs
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\PerfProc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\PerlMsg
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Process Exit Monitor
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Profsvc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\RasClient
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\SceCli
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\SceSrv
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\SecurityCenter
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\ServiceModel Audit 3.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\ServiceModel Audit 4.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\SideBySide
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\SkypeUpdate
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Software Protection Platform Service
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\SPP
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\SQLLocalDB 11.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\SQLNCLI11.1
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\SQLVDI
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\SQLWriter
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Standard TCP/IP Port
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\System Restore
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\System.IdentityModel 3.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\System.IdentityModel 4.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\System.IO.Log 3.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\System.IO.Log 4.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\System.Runtime.Serialization 3.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\System.Runtime.Serialization 4.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\System.ServiceModel 3.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\System.ServiceModel 4.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\usbperf
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Userenv
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\VBRuntime
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\vmauthd
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\vmicguestinterface
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\vmicheartbeat
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\vmickvpexchange
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\vmicrdv
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\vmicshutdown
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\vmictimesync
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\vmicvss
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\VMware NAT Service
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\VSS
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\VSSetup
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\VSTO 4.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\VSTTExecution
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\WerSvc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Windows Error Reporting
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Windows Search Service
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Windows Search Service Profile Notification
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Wininit
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Winlogon
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\WinMgmt
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Wlclntfy
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\WMI.NET Provider Extension
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\Wow64 Emulation Layer
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Application\WSH
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Security
+    PrimaryModule    REG_SZ    Security
+    DisplayNameFile    REG_EXPAND_SZ    %SystemRoot%\system32\wevtapi.dll
+    DisplayNameID    REG_DWORD    0x101
+    File    REG_EXPAND_SZ    %SystemRoot%\System32\winevt\Logs\Security.evtx
+    MaxSize    REG_DWORD    0x1400000
+    Retention    REG_DWORD    0x0
+    Isolation    REG_DWORD    0x2
+    Security    REG_BINARY    01001480A4000000B0000000140000004400000002003000020000000240140072010D0001010000000000010000000002801400FF010F000101000000000001000000000200600004000000000014008D01020001010000000000050B00000000001800FF010F000102000000000005200000002002000000001400FD0102000101000000000005120000000000180084000000010200000000000F0200000001000000010100000000000512000000010100000000000512000000
+    RestrictGuestAccess    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Security\DS
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Security\LSA
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Security\Microsoft-Windows-Eventlog
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Security\Microsoft-Windows-Security-Auditing
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Security\SC Manager
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Security\Security
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Security\Security Account Manager
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Security\ServiceModel 3.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Security\ServiceModel 4.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Security\Spooler
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Security\TCP/IP
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Eventlog\Security\VSSAudit
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System
+    PrimaryModule    REG_SZ    System
+    DisplayNameFile    REG_EXPAND_SZ    %SystemRoot%\system32\wevtapi.dll
+    DisplayNameID    REG_DWORD    0x102
+    File    REG_EXPAND_SZ    %SystemRoot%\system32\winevt\Logs\System.evtx
+    MaxSize    REG_DWORD    0x1400000
+    Retention    REG_DWORD    0x0
+    RestrictGuestAccess    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\3ware
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\ACPI
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\ADP80XX
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\AeLookupSvc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\AFD
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\AmdK8
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\AmdPPM
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\amdsata
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\amdsbs
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\amdxata
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Application Popup
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\AppReadiness
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\arcsas
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\AsyncMac
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\atapi
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\athr
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\b06bdrv
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\BasicDisplay
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\BasicRender
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\beep
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Bowser
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Browser
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\BTATH_HCRP
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\BTATH_RCP
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\BtFilter
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\BthEnum
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\BthLEEnum
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\BTHPORT
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\BTHUSB
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\BugCheck
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\cdrom
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\DCOM
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\DfsSvc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Dhcp
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Dhcpv6
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Dhcp_QEC
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\disk
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Display
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\dmvsc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Dnsapi
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Dnscache
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\DptfManager
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\e1iexpress
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\ebdrv
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\eventlog
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\exFAT
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\FltMgr
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\fvevol
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\FxPPM
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\hcmon
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\HidBth
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\hidi2c
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\HpSAMD
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Http
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\i8042prt
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\iaLPSSi_GPIO
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\iaLPSSi_I2C
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\iaStorA
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\iaStorAV
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\iaStorV
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\intelppm
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\IPMGM
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\IPMIDRV
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\IPNATHLP
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\IPRouterManager
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\isapnp
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\iScsiPrt
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\kbdclass
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\kbdhid
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\kdnic
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Kerberos
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\L1C
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\lltdio
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\LmHosts
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\LsaSrv
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\LSI_SAS
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\LSI_SAS2
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\LSI_SAS3
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\LSI_SSS
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\LSM
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\megasas
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\megasr
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\MEIx64
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-BitLocker-API
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-BitLocker-Driver
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Bits-Client
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-CorruptedFileRecovery-Client
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-CorruptedFileRecovery-Server
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Devices-Background
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-DfsSvc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Dhcp-Client
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Dhcp-Nap-Enforcement-Client
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-DHCPv6-Client
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Diagnostics-Networking
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Directory-Services-SAM
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-DiskDiagnostic
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-DistributedCOM
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-DNS-Client
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-DriverFrameworks-UserMode
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-EnhancedStorage-EhStorTcgDrv
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-EventCollector
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Eventlog
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-exFAT-SQM
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Fat-SQM
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Fault-Tolerant-Heap
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-FilterManager
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Firewall
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-FMS
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-FunctionDiscoveryHost
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-GPIO-ClassExtension
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-GroupPolicy
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-HAL
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-HttpEvent
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-InstallUX
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Iphlpsvc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Kernel-Boot
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Kernel-General
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Kernel-Interrupt-Steering
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Kernel-PnP
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Kernel-Power
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Kernel-Processor-Power
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Kernel-Tm
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Kernel-WHEA
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Kernel-XDV
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-LanguagePackSetup
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Memory-Diagnostic-Task-Handler
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-MemoryDiagnostics-Results
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-MemoryDiagnostics-Schedule
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-MountMgr
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-NDIS
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-NdisImPlatformSysEvtProvider
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-NetworkBridge
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Ntfs
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Ntfs-SQM
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Ntfs-UBPM
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-OverlayFilter
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Power-Troubleshooter
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-RasSstp
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-ResetEng
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Resource-Exhaustion-Detector
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-ResourcePublication
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-SCPNP
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Serial-ClassExtension
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Serial-ClassExtension-V2
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Servicing
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Setup
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-SetupPlatform
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-SPB-ClassExtension
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-SPB-HIDI2C
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Spell-Checking
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-SpellChecker
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-StartupRepair
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Subsys-SMSS
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-TaskScheduler
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-TerminalServices-LocalSessionManager
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-TerminalServices-RemoteConnectionManager
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Time-Service
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-TPM-WMI
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-USB-USBXHCI
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-UserModePowerService
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-UserPnp
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-WHEA-Logger
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-WindowsToGo-StartupOptions
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-WindowsUpdateClient
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Wininit
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-Winlogon
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Microsoft-Windows-WLAN-AutoConfig
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\mouclass
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\mouhid
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\mrxsmb
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\MsBridge
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\MSDTC Gateway
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\MSDTC WS-AT Protocol
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\mshidumdf
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\MSiSCSI
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\MTConfig
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Mup
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\mvumis
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\NAPIPSecEnf
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\NdisImPlatform
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\NdisImPlatformSysEvtProvider
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\NdisWan
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\NdisWanLegacy
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\NetBIOS
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\NetBT
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\NetJoin
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Netlogon
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\netvsc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\netvscvfpp
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\NETwNs64
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Ntfs
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\nvraid
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\nvstor
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\P2PIMSvc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Parport
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\partmgr
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\pcmcia
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\PNRPSvc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Power
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\pppop
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\PptpMiniport
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Print
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\PrintFilterPipelineSvc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Processor
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\RasAuto
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Rasman
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\RasSstp
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\rdbss
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\ReFS
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\RemoteAccess
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\rspndr
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\SAM
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\sbp2port
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\SCardSvr
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Schannel
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\sercx
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\sercx2
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Serial
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\sermouse
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Server
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Service Control Manager
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\SiSRaid2
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\SiSRaid4
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\SMSvcHost 3.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\SMSvcHost 4.0.0.0
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\SNMPTRAP
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\spaceport
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\spbcx
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Srv
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\stexstor
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\StillImage
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\storahci
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\storflt
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\stornvme
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\storvsc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\System
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Tcpip
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Tcpip6
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\TCPMon
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\TermService
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\TPM
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\TsUsbFlt
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\tunnel
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\UASPStor
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\UEFI
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\UmRdpService
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\usbehci
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\usbvideo
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\User32
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\VBoxUSBMon
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\VDS Basic Provider
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\VDS Dynamic Provider
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\VDS Virtual Disk Provider
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\vhdmp
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Virtual Disk Service
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\vmbus
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\vmci
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\VMnetAdapter
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\VMnetBridge
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\VMnetDHCP
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\VMnetuserif
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\vmusb
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\volmgr
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Volsnap
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\vpci
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\vsmraid
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\VSTXRAID
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\vwifimp
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\W32Time
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\WacomPen
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\wdf01000
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\wecsvc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Win32k
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\WinDefend
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Windows Disk Diagnostic
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Windows Script Host
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\WinHttpAutoProxySvc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\WinRM
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\WMIxWDM
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\WMPNetworkSvc
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\Workstation
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\WPC
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\EventLog\System\WPDClassInstaller
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters
+    EnableAuthenticateUserSharing    REG_DWORD    0x1
+    ServiceDllUnloadOnStop    REG_DWORD    0x1
+    ServiceDll    REG_EXPAND_SZ    %SystemRoot%\system32\srvsvc.dll
+    NullSessionPipes    REG_MULTI_SZ    
+    autodisconnect    REG_DWORD    0xf
+    enableforcedlogoff    REG_DWORD    0x1
+    enablesecuritysignature    REG_DWORD    0x0
+    requiresecuritysignature    REG_DWORD    0x0
+    restrictnullsessaccess    REG_DWORD    0x1
+    Lmannounce    REG_DWORD    0x0
+    Size    REG_DWORD    0x1
+    AdjustedNullSessionPipes    REG_DWORD    0x3
+    enableecp    REG_DWORD    0x1
+    SizReqBuf    REG_DWORD    0x4000
+    Guid    REG_BINARY    0B4BEED632686543AA216D950A226818
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanManServer\Parameters\FsctlAllowlist
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LanmanWorkstation\Parameters
+    ServiceDllUnloadOnStop    REG_DWORD    0x1
+    RequireSecuritySignature    REG_DWORD    0x0
+    EnableSecuritySignature    REG_DWORD    0x1
+    EnablePlainTextPassword    REG_DWORD    0x0
+    ServiceDll    REG_EXPAND_SZ    %SystemRoot%\System32\wkssvc.dll
+    OtherDomains    REG_MULTI_SZ    
+
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LDAP
+    ldapclientintegrity    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LDAP\tracing
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Netlogon\Parameters
+    RequireSignOrSeal    REG_DWORD    0x1
+    RequireStrongKey    REG_DWORD    0x1
+    MaximumPasswordAge    REG_DWORD    0x1e
+    SignSecureChannel    REG_DWORD    0x1
+    SealSecureChannel    REG_DWORD    0x1
+    Update    REG_SZ    no
+    ServiceDll    REG_EXPAND_SZ    %SystemRoot%\system32\netlogon.dll
+    DisablePasswordChange    REG_DWORD    0x0
+
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters
+    ICSDomain    REG_SZ    mshome.net
+    SyncDomainWithMembership    REG_DWORD    0x1
+    NV Hostname    REG_SZ    User3
+    DataBasePath    REG_EXPAND_SZ    %SystemRoot%\System32\drivers\etc
+    NameServer    REG_SZ    
+    ForwardBroadcasts    REG_DWORD    0x0
+    IPEnableRouter    REG_DWORD    0x0
+    Domain    REG_SZ    
+    Hostname    REG_SZ    User3
+    SearchList    REG_SZ    
+    UseDomainNameDevolution    REG_DWORD    0x1
+    EnableICMPRedirect    REG_DWORD    0x1
+    DeadGWDetectDefault    REG_DWORD    0x1
+    DontAddDefaultGatewayDefault    REG_DWORD    0x0
+    EnablePMTUDiscovery    REG_DWORD    0x1
+    EnablePMTUBHDetect    REG_DWORD    0x0
+    SackOpts    REG_DWORD    0x1
+    DefaultTTL    REG_DWORD    0x40
+    TcpMaxDupAcks    REG_DWORD    0x2
+    Tcp1323Opts    REG_DWORD    0x1
+    MaxUserPort    REG_DWORD    0xfffe
+    TCPTimedWaitDelay    REG_DWORD    0x1e
+    DhcpNameServer    REG_SZ    8.8.8.8 8.8.4.4
+    DhcpDomain    REG_SZ    localdomain
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters\Adapters
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters\DNSRegisteredAdapters
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters\Interfaces
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters\NsiObjectSecurity
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters\PersistentRoutes
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Tcpip\Parameters\Winsock
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Netbt\Parameters
+    NbProvider    REG_SZ    _tcp
+    Size/Small/Medium/Large    REG_DWORD    0x1
+    NameSrvQueryTimeout    REG_DWORD    0x5dc
+    NameSrvQueryCount    REG_DWORD    0x3
+    BcastQueryTimeout    REG_DWORD    0x2ee
+    BcastNameQueryCount    REG_DWORD    0x3
+    NameServerPort    REG_DWORD    0x89
+    EnableLMHOSTS    REG_DWORD    0x1
+    CacheTimeout    REG_DWORD    0x927c0
+    TransportBindName    REG_SZ    \Device\
+    SessionKeepAlive    REG_DWORD    0x36ee80
+    UseNewSmb    REG_DWORD    0x1
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Netbt\Parameters\Interfaces
+
+HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\RasMan\Parameters
+    ServiceDllUnloadOnStop    REG_DWORD    0x1
+    KeepRasConnections    REG_DWORD    0x0
+    AllowL2TPWeakCrypto    REG_DWORD    0x0
+    Medias    REG_MULTI_SZ    rastapi
+    AllowPPTPWeakCrypto    REG_DWORD    0x0
+    ServiceDll    REG_EXPAND_SZ    %SystemRoot%\System32\rasmans.dll
+    MiniportsInstalled    REG_DWORD    0xffff
+    AllocatedLuids    REG_BINARY    
+
