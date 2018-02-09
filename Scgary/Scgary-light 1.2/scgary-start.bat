@@ -1,6 +1,6 @@
 :: SCGARY-CAT for Windows Server v1.2
-:: Driver, 2008, 2008 R2 - Gary Kong (g4xyk00@gmail.com)
-:: Win 2003 - Alex Wong
+:: Driver, 2008, 2008 R2 - G4xyk (g4xyk00@gmail.com)
+:: Win 2003 - Alex
 :: Date: 2015-08-11
 
 echo off
