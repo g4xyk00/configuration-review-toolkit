@@ -2,7 +2,7 @@
 #Host Assessment Toolkit to assess on Cent OS configuration 
 #Usage: sh hatoolkit_centos.sh
 echo -e "\e[33mHost Assessment Tooklit (Cent OS) By Axcel Security v1.0\e[0m"
-echo "Author: g4xyk00@gmail.com"
+echo "Author: g4xyk00"
 echo "Website: www.axcelsec.com"
 echo ""
 echo "[*] Collecting information..."
