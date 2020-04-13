@@ -9,8 +9,8 @@ Host Assessment Toolkit (HAT) is a semi-automated script file that collect syste
 
 ## Windows Security Policy
 secpol.msc = Local Security Policy 
-	- Can export
-	- gpupdate /force
+ - Can export
+ - gpupdate /force
 
 gpedit.msc = Local Group Policy
-	- Event Log service Policy (Can't Export)
+ - Event Log service Policy (Can't Export)
