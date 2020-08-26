@@ -19,6 +19,9 @@ gpedit.msc = Local Group Policy
  - Event Log service Policy (Can't Export)
  
  
+- - - -
+
+
 **Information about each service on the system**
 ```bat
 reg query "HKLM\SYSTEM\CurrentControlSet\services" /s
