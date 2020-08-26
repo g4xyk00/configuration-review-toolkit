@@ -23,3 +23,8 @@ gpedit.msc = Local Group Policy
 ```bat
 reg query "HKLM\SYSTEM\CurrentControlSet\services" /s
 ```
+
+**NIC**
+```powershell
+Get-WmiObject -Class Win32_NetworkAdapterConfiguration -Filter IPEnabled=TRUE -ComputerName . | Select-Object -Property [a-z]* -ExcludeProperty IPX*,WINS*
+```
