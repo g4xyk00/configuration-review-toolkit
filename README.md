@@ -6,11 +6,20 @@ Host Assessment Toolkit (HAT) is a semi-automated script file that collect syste
 1. Windows (use Scgary)
 2. CentOS
 
+- - - -
 
-## Windows Security Policy
+## Windows
+
+### Windows Security Policy
 secpol.msc = Local Security Policy 
  - Can export
  - gpupdate /force
 
 gpedit.msc = Local Group Policy
  - Event Log service Policy (Can't Export)
+ 
+ 
+**Information about each service on the system**
+```bat
+reg query "HKLM\SYSTEM\CurrentControlSet\services" /s
+```
