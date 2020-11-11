@@ -23,7 +23,7 @@ gpedit.msc = Local Group Policy
 Inventory | BAT | PowerShell
 --- | --- | ---
 User Account | ```wmic useraccount``` | ```gwmi -Class Win32_UserAccount```
-Services | ```wmic service``` | ```gsv | where {$_.Status -like "run*"}```
+Services | ```wmic service``` | ```gsv \| where {$_.Status -like "run*"}```
 Software | ```wmic product``` | ```gwmi -Class Win32_Product; gwmi -Class Cim_Product```
 
 
