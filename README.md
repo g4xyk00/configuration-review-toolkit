@@ -18,7 +18,15 @@ secpol.msc = Local Security Policy
 gpedit.msc = Local Group Policy
  - Event Log service Policy (Can't Export)
  
+ ### Inventory of Windows information for System Hardening
  
+Inventory | BAT | PowerShell
+--- | --- | ---
+User Account | wmic useraccount | gwmi -Class Win32_UserAccount
+Services | wmic service | gsv | where {$_.Status -like "run*"}
+Software | wmic product | gwmi -Class Win32_Product; gwmi -Class Cim_Product
+
+
 - - - -
 
 
@@ -31,3 +39,4 @@ reg query "HKLM\SYSTEM\CurrentControlSet\services" /s
 ```powershell
 Get-WmiObject -Class Win32_NetworkAdapterConfiguration -Filter IPEnabled=TRUE -ComputerName . | Select-Object -Property [a-z]* -ExcludeProperty IPX*,WINS*
 ```
+
