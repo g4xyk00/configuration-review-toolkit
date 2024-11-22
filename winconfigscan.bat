@@ -1,5 +1,5 @@
 :: Windows Configuration Quick Scan
-:: Update: 13-Nov-2024
+:: Update: 23-Nov-2024
 
 echo off
 cls
@@ -27,6 +27,9 @@ wmic /output:software_all.html product get name,version,Installsource,InstallDat
 
 echo [+] Collect System Information
 systeminfo > system.txt
+
+echo [+] Collect a List of Hotfix
+wmic /output:hotfix_all.html qfe list full /format:htable
 
 echo [+] Collect System Security Settings
 secedit /export /cfg cfg.ini
