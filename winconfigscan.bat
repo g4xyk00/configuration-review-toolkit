@@ -32,6 +32,7 @@ wmic /output:wmic_software_all.html product get name,version,Installsource,Insta
 
 echo [+] Collect System Information
 systeminfo > system.txt
+w32tm /query /configuration > w32tm.txt
 
 echo [+] Collect Network Information
 wmic /output:wmic_nicconfig_all.html nicconfig get /format:htable
