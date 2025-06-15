@@ -64,6 +64,9 @@ echo [+] Collect Event Logs Settings
 reg query "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Security" > reg_event_security.txt
 reg query "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\Application" > reg_event_application.txt
 reg query "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Eventlog\System" > reg_event_system.txt
+wevtutil gl Security > wevtutil_event_security.txt
+wevtutil gl Application > wevtutil_event_application.txt
+wevtutil gl System > wevtutil_event_system.txt
 
 echo [+] Customised Items
 reg query "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HarlequinLicenceServer" > reg_service_HarlequinLicenceServer.txt
