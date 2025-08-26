@@ -1,5 +1,5 @@
 :: Windows Configuration Quick Scan
-:: Last Update: 15-Jun-2025
+:: Last Update: 26-Aug-2025
 :: Author: g4xyk00
 
 echo off
@@ -38,6 +38,9 @@ echo [+] Collect Network Information
 wmic /output:wmic_nicconfig_all.html nicconfig get /format:htable
 :: TcpipNetbiosOptions: 2 = Disable NetBIOS over TCP/IP
 ipconfig /all > ipconfig.txt
+netstat -aon > netstat.txt
+tasklist > tasklist.txt
+wmic process get ProcessID,ExecutablePath > process.txt
 
 echo [+] Collect a List of Hotfix
 wmic /output:hotfix_all.html qfe list full /format:htable
